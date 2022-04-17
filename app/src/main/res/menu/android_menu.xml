@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Samsung"
+        android:id="@+id/samsung"/>
+    <item android:title="Xiaumi"
+        android:id="@+id/Xiaumi"/>
+    <item android:title="Huawei"
+        android:id="@+id/huawei"/>
+    <item android:title="LG"
+        android:id="@+id/lg"/>
+
+</menu>

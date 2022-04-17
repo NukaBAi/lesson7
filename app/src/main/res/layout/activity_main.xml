@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android системасындағы телефон" />
+
+    <TextView
+        android:id="@+id/androidTelephone"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Таңдау" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iOS системасындағы телефон" />
+
+    <TextView
+        android:id="@+id/iosTelephone"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Таңдау" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Төлем жасау түрлері" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/bank_kartochka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Банк корточкасы арқылы"/>
+
+        <RadioButton
+            android:id="@+id/qolmaqol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Қолма-қол ақша арқылы"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Жеткізу" />
+
+
+    <CheckBox
+        android:id="@+id/syilyq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сыйлық ретінде "/>
+    <CheckBox
+        android:id="@+id/jyldam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мекен жайға жеткізу"/>
+    <Button
+        android:id="@+id/btn_jiberu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Жіберу 123"/>
+</LinearLayout>
+
